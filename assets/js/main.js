@@ -60,7 +60,7 @@ function walking() {
             left += 10;
         }
     } else {
-        if (left == 20) {
+        if (left <= 20) {
             return;
         } else {
             left -= 10;
