@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
+#backscene {
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1530053969600-caed2596d242?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80") no-repeat center/cover;
+    position: relative;
+}
+
+#cat {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s linear;
+    transform: scaleX(-1);
+}
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: 3px solid transparent;
+    background-color: blueviolet;
+    color: white;
+    width: 165px;
+    height: 37px;
+    font-size: 12px;
+    line-height: 32.5px;
+    transition: 0.2s linear;
+
+}
+
+button:hover {
+    border: 3px solid blue;
+    transition: 0.2s linear;
+
+}
